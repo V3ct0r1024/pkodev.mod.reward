@@ -1,0 +1,46 @@
+----------------------------------------------------------------------------------------------------
+-- Daily login reward form
+----------------------------------------------------------------------------------------------------
+
+-- The form
+frmReward = UI_CreateForm( "frmReward", FALSE, 366, 158, 150, 200, TRUE, FALSE )
+UI_SetFormStyle( frmReward , 0 )
+UI_AddFormToTemplete( frmReward, FORM_MAIN )
+UI_FormSetIsEscClose( frmReward, FALSE )
+UI_SetIsDrag( frmReward, TRUE )
+
+-- Form background
+frmRewardImg = UI_CreateCompent( frmReward, IMAGE_TYPE, "frmRewardImg", 366, 158, 0, 0 )
+UI_LoadImage( frmRewardImg, "texture/mods/pkodev.mod.reward/main.png", NORMAL, 366, 158, 0, 0 )
+
+-- Form title
+labTitle = UI_CreateCompent( frmReward, LABELEX_TYPE, "labTitle", 400, 150, 10, 7 )
+UI_SetCaption( labTitle, "Daily reward!")
+UI_SetTextColor( labTitle, COLOR_WHITE )
+
+-- Reward button
+btnGetReward = UI_CreateCompent( frmReward, BUTTON_TYPE, "btnGetReward", 67, 24, 150, 120 )
+UI_LoadButtonImage( btnGetReward, "texture/mods/pkodev.mod.reward/main.png", 67, 24, 0, 158, TRUE )
+
+-- Close button
+btnClose = UI_CreateCompent( frmReward, BUTTON_TYPE, "btnClose", 21, 21, 343, 2 )
+UI_LoadButtonImage( btnClose, "texture/mods/pkodev.mod.reward/buttons.tga", 21, 21, 270, 0, TRUE )
+UI_SetButtonModalResult( btnClose, BUTTON_CLOSE )
+
+-- Item slots
+cmdItemSlot0 = UI_CreateCompent( frmReward, COMMAND_ONE_TYPE, "cmdItemSlot0", 32, 32, 20,  73 )
+UI_SetIsDrag( cmdItemSlot0, FALSE )
+cmdItemSlot1 = UI_CreateCompent( frmReward, COMMAND_ONE_TYPE, "cmdItemSlot1", 32, 32, 69,  73 )
+UI_SetIsDrag( cmdItemSlot1, FALSE )
+cmdItemSlot2 = UI_CreateCompent( frmReward, COMMAND_ONE_TYPE, "cmdItemSlot2", 32, 32, 118, 73 )
+UI_SetIsDrag( cmdItemSlot2, FALSE )
+cmdItemSlot3 = UI_CreateCompent( frmReward, COMMAND_ONE_TYPE, "cmdItemSlot3", 32, 32, 167, 73 )
+UI_SetIsDrag( cmdItemSlot3, FALSE )
+cmdItemSlot4 = UI_CreateCompent( frmReward, COMMAND_ONE_TYPE, "cmdItemSlot4", 32, 32, 216, 73 )
+UI_SetIsDrag( cmdItemSlot4, FALSE )
+cmdItemSlot5 = UI_CreateCompent( frmReward, COMMAND_ONE_TYPE, "cmdItemSlot5", 32, 32, 265, 73 )
+UI_SetIsDrag( cmdItemSlot5, FALSE )
+cmdItemSlot6 = UI_CreateCompent( frmReward, COMMAND_ONE_TYPE, "cmdItemSlot6", 32, 32, 314, 73 )
+UI_SetIsDrag( cmdItemSlot6, FALSE )
+
+----------------------------------------------------------------------------------------------------
