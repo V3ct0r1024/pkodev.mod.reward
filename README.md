@@ -1,4 +1,4 @@
-[![PKOdev.NET](https://pkodev.net/uploads/monthly_2021_11/pkodevlogo_full.png.9c0b058fcf0ebbfd09e443f272c3d328.png "PKOdev.NET")](http://pkodev.net "PKOdev.NET")
+[![PKOdev.NET](https://pkodev.net/uploads/monthly_2022_02/logo-background.png.d7a190633d23e60fbfdfb9340726ba82.png "PKOdev.NET")](http://pkodev.net "PKOdev.NET")
 ## TOP/PKO/KOP mod: pkodev.mod.reward
 This mod implements a system of daily rewards for entering the game. Players need to enter the game every day in order to receive the next reward - with each new day the reward becomes more valuable. The chain resets and starts over from the first day if a player misses a day. The chain is also reset every week. Modification for **[PKOdev.NET mod loader](https://pkodev.net/topic/5757-mod-loading-system-for-server-and-client-pkodevnet-mod-loader/)**.
 
