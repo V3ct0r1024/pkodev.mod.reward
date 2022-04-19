@@ -30,7 +30,7 @@ namespace pkodev
 	struct reward final
 	{
 		// Reward interval in seconds
-		static const unsigned int interval{ 8 /* * 24 * 60 * 60 */}; // 24 hours
+		static const unsigned int interval{ 24 * 60 * 60 }; // 24 hours
 
 		// Max days in a streak
 		static const unsigned short int max_days{ 7 };
